@@ -8,7 +8,7 @@
   <% end%>
   <div>
     <% soldout = product.quantity <= 0 %>
-    <%= render 'badge', product: product if soldout %>
+    <%= render 'products/badge', product: product if soldout %>
     <%= button_to add_item_cart_path(product_id: product.id), disabled: soldout, class: 'btn', method: :post do %>
       <%= fa_icon "shopping-cart", text: 'Add' %>
     <% end %>

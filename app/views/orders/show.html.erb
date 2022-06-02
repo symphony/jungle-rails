@@ -4,7 +4,6 @@
     <h1>Order #<%= @order.id %></h1>
     <h5>Confirmation sent to <%= @order.email %></h5>
   </header>
-  <% puts "what's in my order #{@order}"%>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -16,7 +15,7 @@
         </tr>
       </thead>
       <tbody>
-        <% enhanced_cart.each do |item| %>
+        <% @items.each do |item| %>
           <%= render 'item', product: item[:product], quantity: item[:quantity].to_i %>
         <% end %>
       </tbody>

@@ -4,6 +4,7 @@
     <h1>Order #<%= @order.id %></h1>
     <h5>Confirmation sent to <%= @order.email %></h5>
   </header>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -15,7 +16,7 @@
         </tr>
       </thead>
       <tbody>
-        <% @items.each do |item| %>
+        <% map_items.each do |item| %>
           <%= render 'item', product: item[:product], quantity: item[:quantity].to_i %>
         <% end %>
       </tbody>
@@ -25,7 +26,7 @@
             TOTAL:
           </th>
           <th>
-            <%= humanized_money_with_symbol @total / 100.0 %>
+            <%= humanized_money_with_symbol get_total / 100.0 %>
           </th>
         </tr>
       </tfoot>

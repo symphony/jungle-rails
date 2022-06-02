@@ -2,7 +2,8 @@ class OrdersController < ApplicationController
 
   def show
     @order = Order.find(params[:id])
-    @items ||= @order.line_items.map {|item| {product: Product.find(item[:product_id]), quantity: item[:quantity]} }
+    @items ||= @order.line_items.map {|item| {product: Product.find(item[:product_id]), quantity: item[:quantity]} } # todo make helper
+    @total ||= @items.map {|entry| entry[:product].price_cents * entry[:quantity]}.sum # todo make helper
   end
 
   def create

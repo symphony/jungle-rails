@@ -7,7 +7,7 @@
     </h1>
   <% end%>
   <div>
-    <%= render 'products/soldout', product: product if product.soldout? %>
+    <%= render 'products/soldout' if product.soldout? %>
     <%= button_to add_item_cart_path(product_id: product.id), disabled: product.soldout?, class: 'btn', method: :post do %>
       <%= fa_icon "shopping-cart", text: 'Add' %>
     <% end %>

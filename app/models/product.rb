@@ -9,7 +9,6 @@ class Product < ApplicationRecord
   validates :quantity, presence: true
   validates :category, presence: true
 
-
   # methods
   def soldout?
     quantity <= 0

@@ -4,10 +4,6 @@
     <h1>My Cart</h1>
   </header>
 
-  <% if enhanced_cart.empty? %>
-    <%= render "empty" %>
-  <% else %>
-    <%= render "full" %>
-  <% end %>
+  <%= render enhanced_cart.any? ? 'full' : 'empty' %>
 
 </section>

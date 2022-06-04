@@ -33,25 +33,26 @@ main section.categories-show {
       a {
         text-decoration: none;
       }
+      background-color: #ecf1f5;
       font-family: "Montserrat";
       width: 100%;
       position: relative;
       text-align: center;
       border-radius: 0.25em;
-      border: 0.1em solid rgba(0, 130, 29, 0.3);
-      box-shadow: rgba(0, 130, 29, 0.16) 0px 3px 6px, rgba(0, 130, 29, 0.23) 0px 3px 6px;
+      border: 0.1em solid rgba(78, 0, 130, 0.3);
+      box-shadow: rgba(61, 0, 130, 0.16) 0px 3px 6px, rgba(0, 130, 29, 0.23) 0px 3px 6px;
       transition: opacity 300ms linear;
 
       &:hover {
         transition: all 150ms linear;
-        background-color: rgba(0, 130, 29, 0.7);
+        background-color: rgba(106, 187, 212, 0.7);
         h1 {
           color: white;
         }
 
         button {
           background: white;
-          color: rgba(0, 130, 29, 0.7);
+          color: rgba(100, 61, 105, 0.7);
         }
       }
       img {
@@ -67,7 +68,7 @@ main section.categories-show {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: rgba(0, 130, 29, 0.7);
+        color: rgba(100, 61, 105, 0.7);
         font-weight: 700;
         font-family: "Montserrat";
         span {
@@ -89,7 +90,7 @@ main section.categories-show {
           min-width: 110px;
           padding-left: 1em;
           padding-right: 1em;
-          background-color: rgba(0, 130, 29, 0.7);
+          background-color: rgba(100, 61, 105, 0.7);
           color: white;
         }
       }

@@ -29,6 +29,23 @@ h4 {
 a {
   text-decoration: none;
 }
+
+body {
+  background-color: #fffaf1;
+  background-image: radial-gradient(#e5d3f0 0.8px, transparent 0.8px), radial-gradient(#e5d3f0 0.8px, #fffaf1 0.8px);
+  background-size: 36px 36px;
+  background-position: 0 0,18px 18px;
+}
+
+div.form-group {
+  margin: 0.4em 0;
+}
+
+.table {
+  margin: 0.4em 0;
+  background-color: #eaf7ffd0;
+  border-radius: 10px;
+}
 // = end custom =
 
 // Bootstrap adjustments
@@ -98,7 +115,7 @@ form.button_to {
 }
 
 .sticky-nav {
-  background: green;
+  background: #643d69;
   position: sticky;
   top: 0;
   z-index: 900;

@@ -25,9 +25,16 @@ h4 {
   font-family: "Montserrat", sans-serif;
 }
 
+// = custom global rules =
 a {
   text-decoration: none;
 }
+
+main {
+  margin-top: 1em;
+}
+
+// = end custom =
 
 // Bootstrap adjustments
 form.button_to {

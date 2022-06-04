@@ -1,23 +1,25 @@
-<h1>Admin Dashboard</h1>
-<hr>
-<br>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Resource</th>
-      <th scope="col">Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> <%= link_to 'Products', [:admin, :products] %>  </td>
-      <td> <%= product_count %> </td>
-    </tr>
+<section class="admin-dashboard">
+  <header class="page-header">
+    <h1>Admin Dashboard</h1>
+  </header>
 
-    <tr>
-      <td> <%= link_to 'Categories', [:admin, :categories] %> </td>
-      <td> <%= category_count %> </td>
-    </tr>
-  </tbody>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Resource</th>
+        <th scope="col">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <%= link_to 'Products', [:admin, :products] %> </td>
+        <td> <%= product_count %> </td>
+      </tr>
+      <tr>
+        <td> <%= link_to 'Categories', [:admin, :categories] %> </td>
+        <td> <%= category_count %> </td>
+      </tr>
+    </tbody>
+  </table>
 
-</table>
+</section>

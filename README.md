@@ -4,23 +4,23 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ### Homepage 
 
-<img alt="Screenshot of Scheduler's Dashboard" src="docs/01-homepage.png?raw=true" name="Jungle Homepage" width="1000"></img>
+<img alt="Screenshot of Jungle's homepage" src="docs/01-homepage.png?raw=true" name="Jungle Homepage" width="1000"></img>
 
 ### Product List
 
-<img alt="Screenshot of Scheduler's Edit Page" src="docs/02-product-list.png?raw=true" name="Product List" width="1000"></img>
+<img alt="Screenshot of product list" src="docs/02-product-list.png?raw=true" name="Product List" width="1000"></img>
 
 ### Product View
 
-<img alt="Screenshot of Delete Confirmation" src="docs/03-product-view.png?raw=true" name="Product View" width="1000"></img>
+<img alt="Screenshot of individual product view" src="docs/03-product-view.png?raw=true" name="Product View" width="1000"></img>
 
 ### Order Confirmation
 
-<img alt="Screenshot of Mobile View" src="docs/order-confirmation.png?raw=true" name="Order Confirmation" width="600"></img>
+<img alt="Screenshot of order confirmation page" src="docs/order-confirmation.png?raw=true" name="Order Confirmation" width="600"></img>
 
 ### Admin Dashboard
 
-<img alt="Screenshot of Mobile View" src="docs/admin-dashboard.png?raw=true" name="Admin Dashboard" width="600"></img>
+<img alt="Screenshot of admin's product dashboard" src="docs/admin-dashboard.png?raw=true" name="Admin Dashboard" width="600"></img>
 
 ---
 
